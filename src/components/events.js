@@ -35,12 +35,9 @@ const Events = () => {
                         {item.node.data.Description}
                         <br/>
                         <Badge pill variant="success">
-<<<<<<< HEAD
                             {item.node.data.Type}
-=======
-                            {item.node.data.Primary_audience_s_[1]}
->>>>>>> 54e06fdf3810eabf9ef40d61485a9aa5641ad4c8
                         </Badge>{' '}
+                        
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
