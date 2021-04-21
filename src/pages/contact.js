@@ -17,7 +17,7 @@ const  ContactPage  =  ()  => (
             <section className="page-section bg-light" style={{
                     padding: `0 10% 18%`,
                 }}>
-                <h1 className="text-center uppercase">Contact</h1>
+                <h1 className="text-center uppercase">Contacto</h1>
                     <FORM></FORM>
                
             </section>

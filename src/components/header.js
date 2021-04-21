@@ -21,9 +21,10 @@ const Header = ({ siteTitle }) => (
         <Navbar.Toggle navbar-toggler-right="true" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" />
         <Navbar.Collapse id="navbarResponsive">
           <Nav  className="ml-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/eventos">Eventos</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link href="/">Inicio</Nav.Link>
+            <Nav.Link href="/eventos">Mis eventos</Nav.Link>
+            <Nav.Link href="/eventos">Eventos concluidos</Nav.Link>
+            <Nav.Link href="/contact">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

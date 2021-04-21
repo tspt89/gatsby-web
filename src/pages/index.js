@@ -1,8 +1,6 @@
 import React from "react"
-//import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-//import Image from "../components/image"
 import SEO from "../components/seo"
 
 import {Container } from "react-bootstrap"
@@ -14,9 +12,9 @@ const IndexPage = () => (
     <SEO title="Home" />
     <header className="masthead" expand-lg="true">
             <Container>
-                <div className="masthead-subheading">Welcome!</div>
-                <div className="masthead-heading text-uppercase">It's Nice To Meet You</div>
-                <a className="btn btn-secondary btn-xl text-uppercase js-scroll-trigger" href="/contact">Contact</a>
+                <div className="masthead-subheading">Mis eventos</div>
+                <div className="masthead-heading text-uppercase">Bienvenido</div>
+                <a className="btn btn-secondary btn-xl text-uppercase js-scroll-trigger" href="/contact">Contacto</a>
             </Container>
     </header>
       
@@ -31,7 +29,7 @@ const IndexPage = () => (
             <div className="container">
                 <div className="text-center">
                     <h2 className="section-heading">Eventos</h2>
-                    <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 className="section-subheading text-muted">Lista de eventos activos</h3>
                 </div>
                 <Cards1></Cards1>
                     
