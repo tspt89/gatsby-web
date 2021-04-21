@@ -13,7 +13,7 @@ const Events = () => {
                             Date(formatString: "MMM DD, YYYY")
                             Description
                             Event_name
-                            Primary_audience_s_
+                            Type
                             Graphics {
                                 url
                             }
@@ -34,17 +34,8 @@ const Events = () => {
                     <Card.Text>
                         {item.node.data.Description}
                         <br/>
-                        <Badge pill variant="secondary">
-                            {item.node.data.Primary_audience_s_[0]}
-                        </Badge>{' '}
                         <Badge pill variant="success">
                             {item.node.data.Primary_audience_s_[1]}
-                        </Badge>{' '}
-                        <Badge pill variant="danger">
-                            {item.node.data.Primary_audience_s_[2]}
-                        </Badge>{' '}
-                        <Badge pill variant="warning">
-                            {item.node.data.Primary_audience_s_[3]}
                         </Badge>{' '}
                     </Card.Text>
                 </Card.Body>
