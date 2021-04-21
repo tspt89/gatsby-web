@@ -38,6 +38,8 @@ body {
     justify-content: space-between;
     padding: 0.5rem 1rem;
     border:2px solid gray;
+    color: white;
+    background-color: white;
 }
 .navbar.active{
     background-color: linear-gradient(90deg, white 0%, black 100%);

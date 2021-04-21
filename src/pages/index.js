@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import {Container } from "react-bootstrap"
-import Cards1 from '../components/cards.js'
+import Cards from '../components/cards.js'
 
 
 const IndexPage = () => (
@@ -31,7 +31,7 @@ const IndexPage = () => (
                     <h2 className="section-heading">Eventos</h2>
                     <h3 className="section-subheading text-muted">Lista de eventos activos</h3>
                 </div>
-                <Cards1></Cards1>
+                <Cards></Cards>
                     
               </div>
               

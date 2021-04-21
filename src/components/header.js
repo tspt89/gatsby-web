@@ -7,7 +7,7 @@ import imagen from '../images/gatsby-icon.png'
 const Header = ({ siteTitle }) => (
   <header  >
     <Container>
-      <Navbar  navbar-expand-lg="true" fixed="top" className="navbar" >
+      <Navbar  navbar-expand-lg="true" fixed="top" className="color-nav" >
         <Navbar.Brand href="#home">
           <img
             alt=""
@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
           <Nav  className="ml-auto">
             <Nav.Link href="/">Inicio</Nav.Link>
             <Nav.Link href="/eventos">Mis eventos</Nav.Link>
-            <Nav.Link href="/eventos">Eventos concluidos</Nav.Link>
+            <Nav.Link href="/page-2">Eventos concluidos</Nav.Link>
             <Nav.Link href="/contact">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>

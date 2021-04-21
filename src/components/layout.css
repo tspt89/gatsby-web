@@ -5,6 +5,11 @@ html {
   box-sizing: border-box;
   overflow-y: scroll;
 }
+
+.color-nav {
+  color: white;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -293,7 +298,7 @@ h4 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
+  color: white;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;

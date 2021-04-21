@@ -1,16 +1,34 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const SecondPage = () => (
+import CardsPasados from "../components/cards-eventos-pasados"
+
+
+const EventosPage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <SEO title="Eventos" />
+    <div
+        style={{
+            margin: `0 auto`,
+            maxWidth: 960,
+            padding: `0 1.0875rem 1.45rem`,
+        }}
+    >
+    
+        <section className="page-section bg-light">
+        <h1 className="text-center uppercase">Eventos</h1>
+            <div className="container">
+            <CardsPasados></CardsPasados>
+            </div>
+        </section>
+    
+    
+    
+    </div>
+    
   </Layout>
 )
 
-export default SecondPage
+export default EventosPage
