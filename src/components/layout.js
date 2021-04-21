@@ -46,17 +46,17 @@ const Layout = ({ children }) => {
             <div className="text-center center-block">
               
               <span className="fa-stack fa-2x">
-              <i role="button" aria-label="facebook" ><FontAwesomeIcon icon={['fab', 'facebook' ]} size="xs" /></i>
+              <a class="button" aria-label="facebook" href="https://www.facebook.com/RobertKiyosaki/" ><FontAwesomeIcon icon={['fab', 'facebook' ]} size="xs" /></a>
               </span>
               <span className="fa-stack fa-2x">
-              <i role="button" aria-label="instagram" ><FontAwesomeIcon icon={['fab', 'instagram']} size="xs"/></i>
+                <a role="button" aria-label="instagram" href="https://www.instagram.com/therealkiyosaki/?hl=es-la%22%3E" ><FontAwesomeIcon icon={['fab', 'instagram']} size="xs"/></a>
               </span>
               <span className="fa-stack fa-2x">
-                <i role="button" aria-label="Google" ><FontAwesomeIcon icon={['fab', 'google']} size="xs"/></i> 
+                <a role="button" aria-label="Google" href="https://www.instagram.com/therealkiyosaki/?hl=es-la%22%3E"><FontAwesomeIcon icon={['fab', 'twitter']} size="xs"/></a>
               </span>
               <br />
-              © {new Date().getFullYear()}, Built with
-              <a href="https://www.gatsbyjs.org"> Gatsby</a>
+                {new Date().getFullYear()}, Built with
+              <a> Juan R, Theo S, Jacqueline O.</a>
               
               
             </div>
