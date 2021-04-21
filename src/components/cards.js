@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import { Button, Card, CardColumns } from "react-bootstrap";
+import { Card, CardColumns } from "react-bootstrap";
 import Countdown from 'react-countdown';
 
 const Cards = () => {
@@ -41,7 +41,6 @@ const Cards = () => {
                     <Card.Text>
                     {item.Description}
                     </Card.Text>
-                    <Button variant="outline-secondary" href="/eventos">Go</Button>
                 </Card.Body>
                 <Card.Footer>
                     <small className="text-muted">

@@ -26,7 +26,7 @@ class ContactUs extends React.PureComponent{
         const templateParams = {
             from_name: name + " " + last,
             from_email: email,
-            to_name: 'Elon Musk',
+            to_name: 'Robert Kiyosaki',
             message_html: cel,
         };
         emailjs.send(

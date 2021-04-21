@@ -14,7 +14,7 @@ const IndexPage = () => (
             <Container>
                 <div className="masthead-subheading">Mis eventos</div>
                 <div className="masthead-heading text-uppercase">Bienvenido</div>
-                <a className="btn btn-secondary btn-xl text-uppercase js-scroll-trigger" href="/contact">Contacto</a>
+                <a className="btn btn-dark btn-xl text-uppercase js-scroll-trigger" href="/contact">Contacto</a>
             </Container>
     </header>
       
