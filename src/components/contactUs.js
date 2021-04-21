@@ -63,16 +63,16 @@ class ContactUs extends React.PureComponent{
             <input type="hidden" name="contact_number" />
                 <Col>
                     <Form.Label>Nombre(s)</Form.Label>
-                    <Form.Control type="text" placeholder="First name" id="name" required name="name" value={name} onChange={this.handleChange}/>
+                    <Form.Control type="text" placeholder="Nombre(s)" id="name" required name="name" value={name} onChange={this.handleChange}/>
                 </Col>
                 <Col>
                     <Form.Label>Apellido(s)</Form.Label>
-                    <Form.Control type="text" placeholder="Last name" id="last" required name="last" value={last} onChange={this.handleChange}/>
+                    <Form.Control type="text" placeholder="Apellido(s)" id="last" required name="last" value={last} onChange={this.handleChange}/>
                 </Col>
             </Row>
             <Form.Group controlId="exampleForm.ControlInput1">
                 <Form.Label>Correo electronico</Form.Label>
-                <Form.Control type="email" id="email" placeholder="name@example.com" required name="email" value={email} onChange={this.handleChange}/>
+                <Form.Control type="email" id="email" placeholder="milibro@ejemplo.com" required name="email" value={email} onChange={this.handleChange}/>
             </Form.Group>
             <Form.Group controlId="exampleForm.ControlInput1">
                 <Form.Label>Telefono celular</Form.Label>
